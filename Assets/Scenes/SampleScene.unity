@@ -849,7 +849,7 @@ Transform:
   m_GameObject: {fileID: 1023651723}
   serializedVersion: 2
   m_LocalRotation: {x: 0.21940467, y: -0, z: -0, w: 0.975634}
-  m_LocalPosition: {x: 1.821, y: 3.69, z: -6.44}
+  m_LocalPosition: {x: 1.5, y: 2.41, z: -7.05}
   m_LocalScale: {x: 0.51386, y: 0.51386, z: 0.52611566}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -868,6 +868,7 @@ GameObject:
   - component: {fileID: 1110685570}
   - component: {fileID: 1110685569}
   - component: {fileID: 1110685568}
+  - component: {fileID: 1110685573}
   m_Layer: 0
   m_Name: TriggerCube
   m_TagString: Untagged
@@ -917,7 +918,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -982,12 +983,24 @@ Transform:
   m_GameObject: {fileID: 1110685567}
   serializedVersion: 2
   m_LocalRotation: {x: -0.018573469, y: -0.677285, z: 0.020161966, w: 0.73520994}
-  m_LocalPosition: {x: -2.42, y: 1.19, z: -3.02}
-  m_LocalScale: {x: 2.2724, y: 1, z: 1}
+  m_LocalPosition: {x: -2.43, y: 1.19, z: -3.13}
+  m_LocalScale: {x: 2.2724, y: 1, z: 1.6204}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -85.303, z: 3.142}
+--- !u!114 &1110685573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110685567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24c133962a660414e9fa5a6d40e589e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
