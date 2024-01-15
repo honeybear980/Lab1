@@ -8,5 +8,6 @@ public class TriggerTest : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         GetComponent<Renderer>().material.color = Color.yellow;
+        other.GetComponent<Renderer>().material.color = Color.red;
     }
 }
