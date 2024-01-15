@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Rotate : MonoBehaviour
@@ -16,6 +17,6 @@ public class Rotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       rb.AddTorque(0,rotate,0); 
+       rb.AddTorque(0,rotate,0);
     }
 }

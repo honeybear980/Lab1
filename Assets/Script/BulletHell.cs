@@ -17,6 +17,10 @@ public class BulletHell : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       rb.AddForce(0,0,force);
+        if (Input.GetKey(KeyCode.Space))
+        {
+            rb.AddForce(0,0,force); 
+        }
+       
     }
 }
